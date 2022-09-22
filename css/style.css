@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+/* inicia nav */
+.bg-blue{
+    background: linear-gradient(to left,rgb(40,44,70),rgb(81,84,113));
+}
+.scale:hover{
+    background: linear-gradient(to left,rgb(40,44,70),rgb(81,84,113));
+    border-radius: 7px;
+    transform: scale(1.05);
+    transition: all 1s;
+    opacity: .6;
+}
+#botonera ul li a{
+   color: rgb(255, 239, 138);
+   font-size: 1em;
+   font-weight: bold;
+   font-family: 'Roboto', inherit;
+   padding: 40px;   
+}
+#botonera img{
+    width: 150px;
+    border-radius: 7px;
+}
+/* termina nav */
+/* inicia main */
+.bg-lightblue{
+    background-color: #D7DEF1;
+}
+#btn-blue{
+    background: linear-gradient(to bottom,rgb(40,44,70),rgb(81,84,113));
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', inherit;
+}
+#btn-blue:hover{
+    color: rgb(251, 236, 139);
+    transform: scale(1.02);
+    font-weight: bold;
+    font-family: 'Roboto', inherit;
+    transition: transform all 1s;
+}
+h1, h2, h3, p{
+    text-align: center;
+    font-family: 'Roboto', inherit;
+    color: rgb(81, 84, 113);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/* termina main */
+/* inicia footer */
+.text-yellow{
+    font-family: 'Roboto', inherit;
+    color: rgb(251, 236, 139);
+}
+.text-yellow:hover{
+    transition: transform all 10s;
+    font-family: 'Roboto', inherit;
+    font-weight:bolder;
+    color:rgb(234, 211, 62);
+    background: linear-gradient(to left,rgb(40,44,70),rgb(81,84,113));
+}
+/* termina footer */
