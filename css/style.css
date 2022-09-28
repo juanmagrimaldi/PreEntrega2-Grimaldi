@@ -50,6 +50,9 @@ h1, h2, h3, p{
     padding: 5px;
     margin-bottom: 10px;
 }
+.txt-deco{
+    text-decoration: underline;
+}
 /* termina main */
 /* inicia footer */
 .text-yellow{
