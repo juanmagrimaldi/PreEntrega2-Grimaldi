@@ -27,6 +27,9 @@
 }
 /* termina nav */
 /* inicia main */
+#bgi{
+    background-image: url(../multimedios/verdeeco.jpg);
+}
 .bg-lightblue{
     background-color: #D7DEF1;
 }
@@ -38,7 +41,6 @@
 }
 #btn-blue:hover{
     color: rgb(251, 236, 139);
-    transform: scale(1.02);
     font-weight: bold;
     font-family: 'Roboto', inherit;
     transition: transform all 1s;
@@ -57,13 +59,15 @@ h1, h2, h3, p{
 /* inicia footer */
 .text-yellow{
     font-family: 'Roboto', inherit;
-    color: rgb(251, 236, 139);
+    color: rgb(179, 167, 90);
 }
-.text-yellow:hover{
-    transition: transform all 10s;
-    font-family: 'Roboto', inherit;
-    font-weight:bolder;
-    color:rgb(234, 211, 62);
-    background: linear-gradient(to left,rgb(40,44,70),rgb(81,84,113));
+footer img{
+    border-radius: 5px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-items: left;
+    padding-right: 2em;
 }
+
 /* termina footer */

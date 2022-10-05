@@ -1,0 +1,33 @@
+.bg-blue{
+    background-color: linear-gradient(to left, $firstColor, $mainColor);
+}
+.bg-lightblue{
+    background-color: #D7DEF1;
+}
+.scale:hover{
+    background-color: linear-gradient(to left, $firstColor, $mainColor);
+    border-radius: 7px;
+    transform: scale(1.05);
+    transition: all 1s;
+    opacity: .6;
+}
+#botonera{
+    img{
+        width: 150px;
+        border-radius: 7px;
+    }
+    ul{
+        li{
+            a{
+                color: $secondaryColor;
+                font-size: 1em;
+                font-weight: bold;
+                font-family: $mainFont;
+                padding: 40px;
+            }
+        }
+    }
+}
+#bgi{
+    background-color: #D7DEF1;
+}
