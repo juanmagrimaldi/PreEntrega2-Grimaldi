@@ -4,8 +4,61 @@
   margin: 0;
 }
 
+h1 {
+  font-family: "Roboto", inherit;
+  font-size: 2.2em;
+  list-style: 1em;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Roboto", inherit;
+  font-size: 1.6em;
+  list-style: 1em;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Roboto", inherit;
+  font-size: 1.4em;
+  list-style: 1em;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Roboto", inherit;
+  font-size: 1em;
+  list-style: 0.8em;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.bg-blue {
+  background: linear-gradient(to left, rgb(40, 44, 70), rgb(81, 84, 113));
+}
+
+.bg-lightblue {
+  background: #D7DEF1;
+}
+
 .txt-deco {
-  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto", inherit;
+  color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .text-yellow {
@@ -13,67 +66,75 @@
   color: rgb(179, 167, 90);
 }
 
-h1, h2, h3, p {
-  text-align: center;
-  font-family: "Roboto", inherit;
-  color: rgb(81, 84, 113);
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-.bg-blue {
-  background-color: linear-gradient(to left, rgb(40, 44, 70), rgb(81, 84, 113));
-}
-
-.bg-lightblue {
-  background-color: #D7DEF1;
-}
-
 .scale:hover {
-  background-color: linear-gradient(to left, rgb(40, 44, 70), rgb(81, 84, 113));
+  background: linear-gradient(to left, rgb(40, 44, 70), rgb(81, 84, 113));
   border-radius: 7px;
-  transform: scale(1.05);
+  transform: scale(1.2);
   transition: all 1s;
   opacity: 0.6;
+  background: fixed;
 }
 
-#botonera img {
-  width: 150px;
-  border-radius: 7px;
+#bgi {
+  background-image: url(../multimedios/verdeeco.jpg);
 }
+
 #botonera ul li a {
-  color: rgb(234, 211, 62);
+  color: rgb(255, 239, 138);
   font-size: 1em;
   font-weight: bold;
   font-family: "Roboto", inherit;
   padding: 40px;
 }
-
-#bgi {
-  background-color: #D7DEF1;
+#botonera img {
+  width: 150px;
+  border-radius: 7px;
 }
 
 #btn-blue {
-  background-color: linear-gradient(to bottom, rgb(40, 44, 70), rgb(81, 84, 113));
+  background: linear-gradient(to bottom, rgb(40, 44, 70), rgb(81, 84, 113));
   color: white;
   font-weight: bold;
   font-family: "Roboto", inherit;
 }
 #btn-blue:hover {
   color: rgb(251, 236, 139);
-  transform: scale(1.02);
   font-weight: bold;
   font-family: "Roboto", inherit;
-  transition: transform all 1s;
+  transition: all 1s;
+}
+
+#submit {
+  padding: 10px 20px;
+  color: #cbbddb;
+  font-size: 9px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  border: 1px solid #bcb2ef;
+  margin: auto;
+}
+#submit:hover {
+  background: #bcb2ef;
+  color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #bcb2ef, 0 0 25px #bcb2ef, 0 0 50px #bcb2ef, 0 0 100px #bcb2ef;
 }
 
 footer img {
-  border-radius: 5px;
   height: 40px;
   width: auto;
   display: flex;
-  justify-items: left;
+  justify-items: center;
   padding-right: 2em;
+}
+footer img:hover {
+  background: fixed;
+  transform: scale(1.2);
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,6 @@
-$mainColor:rgb(81,84,113);
-$firstColor:rgb(40,44,70);
-$secondaryColor:rgb(234, 211, 62);
-$mainFont: 'Roboto', inherit;
+$bg-primary: #D7DEF1;
+$bg-nosotros: url(../multimedios/verdeeco.jpg);
+$fontPrimary: 'Roboto', inherit;
+$lineargPrimary: linear-gradient(to left,rgb(40,44,70),rgb(81,84,113));
+$linearSecondary:linear-gradient(to bottom,rgb(40,44,70),rgb(81,84,113));
+$fontweightPrimary: bold;

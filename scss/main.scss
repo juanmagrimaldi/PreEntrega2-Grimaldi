@@ -1,27 +1,5 @@
 //imports
 @import "_vars";
 @import "_fonts";
-@import "commons";
-#btn-blue{
-    background-color: linear-gradient(to bottom, $firstColor,$mainColor);
-    color: white;
-    font-weight: bold;
-    font-family: $mainFont;
-    &:hover{
-        color: rgb(251, 236, 139);
-        transform: scale(1.02);
-        font-weight: bold;
-        font-family: $mainFont;
-        transition: transform all 1s;
-    }
-}
-footer{
-    img{
-        border-radius: 5px;
-        height: 40px;
-        width: auto;
-        display: flex;
-        justify-items: left;
-        padding-right: 2em;
-    }
-}
+@import "_mixins";
+@import "_commons";

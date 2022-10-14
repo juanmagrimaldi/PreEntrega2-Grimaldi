@@ -1,0 +1,21 @@
+@mixin text ($fontsize, $interlineado, $color){
+    font-family: $fontPrimary;
+    font-size: $fontsize;
+    list-style: $interlineado;
+    color: $color;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h1{
+  @include text(2.2em, 1em, black)
+}
+h2{
+  @include text(1.6em, 1em, black)
+}
+h3{
+  @include text(1.4em, 1em, black)
+}
+p{
+  @include text(1em, .8em,black)
+}

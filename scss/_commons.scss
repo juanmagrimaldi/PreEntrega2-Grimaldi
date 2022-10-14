@@ -1,33 +1,87 @@
 .bg-blue{
-    background-color: linear-gradient(to left, $firstColor, $mainColor);
-}
-.bg-lightblue{
-    background-color: #D7DEF1;
-}
-.scale:hover{
-    background-color: linear-gradient(to left, $firstColor, $mainColor);
-    border-radius: 7px;
-    transform: scale(1.05);
-    transition: all 1s;
-    opacity: .6;
-}
-#botonera{
+    background: $lineargPrimary
+  }
+  .bg-lightblue{
+    background: $bg-primary;
+  }
+  .txt-deco{
+    text-align: center;
+    font-family: $fontPrimary;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: $fontweightPrimary;
+  }
+  .text-yellow{
+    font-family: $fontPrimary;
+    color: rgb(179, 167, 90);
+  }
+  .scale{
+    &:hover{
+      background: $lineargPrimary;
+      border-radius: 7px;
+      transform: scale(1.2);
+      transition: all 1s;
+      opacity: .6;
+      background: fixed;
+    }
+  }
+  #bgi{
+    background-image: $bg-nosotros;
+  }
+  #botonera{
+    ul li a{
+      color: rgb(255, 239, 138);
+      font-size: 1em;
+      font-weight: $fontweightPrimary;
+      font-family: $fontPrimary;
+      padding: 40px;
+    }
     img{
-        width: 150px;
-        border-radius: 7px;
+      width: 150px;
+      border-radius: 7px;
     }
-    ul{
-        li{
-            a{
-                color: $secondaryColor;
-                font-size: 1em;
-                font-weight: bold;
-                font-family: $mainFont;
-                padding: 40px;
-            }
-        }
+  }
+  #btn-blue{
+    background: $linearSecondary;
+    color: white;
+    font-weight: $fontweightPrimary;
+    font-family: $fontPrimary;
+    &:hover{
+      color: rgb(251, 236, 139);
+      font-weight: $fontweightPrimary;
+      font-family: $fontPrimary;
+      transition: all 1s;
     }
-}
-#bgi{
-    background-color: #D7DEF1;
-}
+  }
+  #submit{
+    padding: 10px 20px;
+    color: #cbbddb;
+    font-size: 9px;
+    font-weight: $fontweightPrimary;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #bcb2ef;
+    margin: auto;
+    &:hover{
+      background: #bcb2ef;
+      color: #fff;
+      border-radius: 7px;
+      box-shadow: 0 0 5px #bcb2ef, 0 0 25px #bcb2ef, 0 0 50px #bcb2ef, 0 0 100px #bcb2ef;
+    }
+  }
+  footer img{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-items: center;
+    padding-right: 2em;
+    &:hover{
+        background: fixed;
+        transform: scale(1.2);
+        transition: all 1s;
+    }
+  }
